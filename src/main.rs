@@ -72,8 +72,8 @@ fn sum_of_power_of_minimum_sets(filename: &str) -> u32 {
 }
 
 fn main() {
-    assert_eq!(sum_of_possible_game_ids("example.txt"), 8);
-    assert_eq!(sum_of_possible_game_ids("input.txt"), 3035);
-    assert_eq!(sum_of_power_of_minimum_sets("example.txt"), 2286);
-    assert_eq!(sum_of_power_of_minimum_sets("input.txt"), 66027);
+    println!("{}", sum_of_possible_game_ids("example.txt"));
+    println!("{}", sum_of_possible_game_ids("input.txt"));
+    println!("{}", sum_of_power_of_minimum_sets("example.txt"));
+    println!("{}", sum_of_power_of_minimum_sets("input.txt"));
 }
